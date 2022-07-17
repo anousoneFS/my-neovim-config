@@ -16,7 +16,6 @@ local options = {
   splitbelow = true,                       -- force all horizontal splits to go below current window
   splitright = true,                       -- force all vertical splits to go to the right of current window
   swapfile = false,                        -- creates a swapfile
-  -- termguicolors = true,                    -- set term gui colors (most terminals support this)
   timeoutlen = 1000,                        -- time to wait for a mapped sequence to complete (in milliseconds)
   undofile = true,                         -- enable persistent undo
   updatetime = 300,                        -- faster completion (4000ms default)
@@ -32,7 +31,8 @@ local options = {
   wrap = true,                            -- display lines as one long line
   scrolloff = 12,                           -- is one of my fav
   sidescrolloff = 8,
-  guifont = "monospace:h17",               -- the font used in graphical neovim applications
+  termguicolors = true,                    -- set term gui colors (most terminals support this)
+  guifont = "FiraCode Nerd Font:h12",               -- the font used in graphical neovim applications
 }
 
 vim.opt.shortmess:append "c"

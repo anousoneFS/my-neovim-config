@@ -76,6 +76,11 @@ _G.packer_plugins = {
     path = "/Users/anousone/.local/share/nvim/site/pack/packer/opt/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/Users/anousone/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/Users/anousone/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
